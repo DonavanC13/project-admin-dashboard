@@ -6,6 +6,12 @@
 }
 
 .nav-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
     width: 250px;
     padding: 25px;
     background-color: #333;
@@ -28,4 +34,9 @@
     grid-row: 1;
     grid-column-start: 2;
     grid-column-end: 4;
+}
+
+a {
+    padding: 20px;
+    color: #fff;
 }
