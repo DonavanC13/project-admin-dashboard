@@ -7,7 +7,7 @@
 
 .nav-links {
     width: 250px;
-    padding-left: 20px;
+    padding: 25px;
     background-color: #333;
     color: white;
     grid-column: 1;
