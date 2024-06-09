@@ -47,7 +47,16 @@ a {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
     color: #fff;
+}
+
+.content-dashboard {
+    font-size: 18px;
+}
+
+p {
+    padding: 20px;
 }
