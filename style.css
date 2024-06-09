@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     grid-template-rows:  repeat(4 , 200px);
-    background-color: black;
 }
 
 .nav-links {
@@ -29,6 +28,10 @@
 }
 
 .nav-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     width: 1200px;
     background-color: #333;
     grid-row: 1;
