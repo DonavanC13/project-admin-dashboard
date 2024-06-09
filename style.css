@@ -10,7 +10,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     width: 250px;
     padding: 25px;
     background-color: #333;
@@ -28,6 +28,8 @@
 }
 
 .nav-header {
+    font-size: 20px;
+    color: white;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
