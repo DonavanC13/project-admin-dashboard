@@ -1,44 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
 </head>
 <body>
-    <div class="nav-bar">
-        <div class="nav-header">
-            <a href=>New</a>
-            <a href>Upload</a>
-            <a href>Share</a>
-            <input type="text" placeholder="search">
-        </div>
-        <div class="nav-links">
-            <h1>Dashboard</h1>
-            <hr style="color: #fff; width: 100%">
-            <a href=>Dashboard</a>
-            <a href=>Profile</a>
-            <a href=>messages</a>
-            <a href=>tasks</a>
-            <a href=>communities</a>
-            <hr style="color: #fff; width: 100%">
-            <a href=>settings</a>
-            <img src="token_24dp_FILL0_wght400_GRAD0_opsz24.svg">
-        </div>
-        <div class="content-dashboard">
-            <h1>Welcome to your dashboard!</h1>
-            <p>here you can view your recent your projects</p>
-        <div class="your-projects">
-            <img src="vinland.jpg" alt="Thorfinn">
-            <img src="thorfinn.gif" alt="vinland saga">
-            <img src="vim.jpg">
-            <div class="project-imgs">
-            <img src="vinland saga.gif" alt="Thors">
-            <img src="i-have-no-enemies-thorfinn.gif" alt="askeladd">
-            <img src="saga.jpg">
-        </div>
-        </div>
+  <div class="dashboard-container">
+    <div class="grid-container">
+      <div class="nav-header grid-item">
+        <h1>Dashboard</h1>
+        <nav>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </nav>
+      </div>
+      <div class="nav-menu grid-item">
+        <ul>
+          <li><a href="#">Menu Item 1</a></li>
+          <li><a href="#">Menu Item 2</a></li>
+          <li><a href="#">Menu Item 3</a></li>
+        </ul>
+      </div>
+      <div class="dashboard-content grid-item">
+        <h2>Your Projects</h2>
+        <p>This is the area where you can view your current projects</p>
+      </div>
     </div>
+  </div>
 </body>
 </html>
